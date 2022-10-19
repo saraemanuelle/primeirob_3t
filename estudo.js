@@ -32,4 +32,27 @@ function multiplica(){
     }
 }
 
+function total(){
+let v = document.getElementById("valor").value;
+let j = document.getElementById("juros").value;
+let t = document.getElementById("meses").value;
+let r = 0;
+for (let i=1; i <= t; i++) {
+ r = v * (1 + (j/100));
+ document.write("Mes:" + i + "valor:" + r +"<br>" );
+ v = r;
 
+}
+document.write("Resultado:" + r);
+
+}
+function media(){
+let n1= documentgetElementById ("n1").value;
+let n2= documentgetElementById ("n1").value;
+let n3= documentgetElementById ("n1").value;
+let n4= documentgetElementById ("n1").value;
+
+let r = (Number(n1))+ Number(n2) + Number(n3)+ Number(n3) +Number(n4)/4
+document.getElementById ("result").innerHTML = " Media:"+ r;
+
+}
