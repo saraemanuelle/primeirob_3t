@@ -7,27 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro B</title>
     <script src="estudo.js"></script>
+
 </head>
 
 <body>
-   
 
-   Valor: <input id="valor"  type="text"><br>
-   Juros (Mensais): <input id="juros"  type="text"><br>
-   Nr. Meses: <input id="meses"  type="text"><br>
-   <button onclick="total()">Enviar</button>
+    <div class="calculadora">
+        <span id="totalGeral">Total:0,00</span><br>
 
-<br><br><br><br>
- <span id="Result"Resultado 0,00 ></span><br>
+        Valor: <input id="valor" type="text"><br>
+        Juros (Mensais): <input id="juros" type="text"><br>
+        Nr. de meses: <input id="meses" type="text"><br>
+        <button onclick="total()">Enviar</button>
 
-   Primeiro Numero: <input id="n1" type="text"><br>
-   Segundo Numero: <input id="n2" type="text"><br>
-   Terceiro Numero: <input id="n3" type="text"><br>
-   Quarto Numero: <input id="n4" type="text"><br>
+    </div>
+    <div>
+        <span id="mes">Mêses</span>
+    </div>
 
-    <button onclick="media()">calcular a media</button>
+
+
+
+
+    
+
+    <br><br><br><br>
+    <span id="resultado">Resultado: 0,00</span><br><br>
+    Primeiro Número: <input id="n1" type="text"><br>
+    Segundo Número: <input id="n2" type="text"><br>
+    Terceiro Número: <input id="n3" type="text"><br>
+    Quarto Número: <input id="n4" type="text"><br>
+
+    <button onclick="media()">Calcular média</button>
+    <button onclick="soma()">Calcular a soma</button>
+    <button onclick="subtrai()">Calcular a subtração</button>
+    <button onclick="multiplica()">Calcular a multiplicação</button>
 
 </body>
 
 </html>
-
