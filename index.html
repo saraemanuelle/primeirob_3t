@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -7,29 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primeiro B</title>
     <script src="estudo.js"></script>
+    <link rel="stylesheet" href="geral.css">
 
 </head>
 
 <body>
 
     <div class="calculadora">
-        <span id="totalGeral">Total:0,00</span><br>
+        <div id="spTotalgeral">
+            <span id="totalGeral">Total:0,00</span><br>
+        </div>
 
-        Valor: <input id="valor" type="text"><br>
-        Juros (Mensais): <input id="juros" type="text"><br>
-        Nr. de meses: <input id="meses" type="text"><br>
+        Valor: <input id="valor" placeholder="R$" type="text"><br>
+        Juros (Mensais): <input id="juros" placeholder="% Mês" type="text"><br>
+        Nr. de meses: <input id="meses"placeholder="Tempo" type="text"><br>
         <button onclick="total()">Enviar</button>
 
     </div>
-    <div>
-        <span id="mes">Mêses</span>
+
+   
+
+<div class="calcESG">
+    <div class="spRaiz">
+<span id="raiz">x1:? x2:?</span>
     </div>
-
-
-
-
+    a: <input id="a" type="text"><br>
+    b: <input id="b" type="text"><br>
+    c: <input id="c" type="text"><br>
+    <button onclick="calculaRaiz()">Calcular</button>
 
     
+
+</div>
+
+
+
+
 
     <br><br><br><br>
     <span id="resultado">Resultado: 0,00</span><br><br>
