@@ -96,7 +96,7 @@ function calculaRaiz() {
         let x2 = ((-b) - Math.sqrt(delta))/(2*a);
     Document.getElementById("raiz").innerHTML = "x1 = " + x1 + "x2 =" ;
 
-    }else{
+    }else{ j
         raiz_quadrada= Match.sqrt(delta);
         x1  = ((-b) + raiz_quadrada_)/(2*a);
         x2  = ((-b) + raiz_quadrada_)/(2*a);
